@@ -1,52 +1,57 @@
-body{
-    width: 500px;
-    margin: auto;
-}
-    
-.menu{
-    background-image: linear-gradient(rgb(116, 114, 26), rgb(207, 35, 35));
-    width: 400px;
-    height: 158px;
-    border: solid 1px;
-    border-radius: 15px 0px 15px 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+@media screen and (min-width:340px) {
+    body{
+      width: 500px;
+      margin: auto;
+      background-color: #ffffff;
+      text-align: center;
     }
-/* Estilo do menu principal */
-.menu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.menu ul li {
-  float: left;
-  position: relative;
-}
-
-.menu ul li a {
-  display: block;
-  padding: 10px 20px;
-  text-decoration: none;
-  color: #fff0f0;
-}
-
-/* Estilo do submenu */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-image: linear-gradient(rgb(189, 187, 89), rgb(235, 82, 82));
-  min-width: 160px;
-  z-index: 1;
-}
-
-.dropdown-content a {
-  display: block;
-  padding: 10px 20px;
-  text-decoration: none;
-  color: #333;
-}
-
-/* Mostrar o submenu quando o item de menu é hover */
-.menu ul li:hover .dropdown-content {
-  display: block;
-}
+        
+    .menu{
+        background-image: linear-gradient(rgb(116, 114, 26), rgb(207, 35, 35));
+        width: 400px;
+        height: 158px;
+        border: solid 1px;
+        border-radius: 15px 0px 15px 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    /* Estilo do menu principal */
+    .menu ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+  
+    .menu ul li {
+      float: left;
+      position: relative;
+    }
+  
+    .menu ul li a {
+      display: block;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #fff0f0;
+    }
+  
+    /* Estilo do submenu */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-image: linear-gradient(rgb(189, 187, 89), rgb(235, 82, 82));
+      min-width: 160px;
+      z-index: 1;
+    }
+  
+    .dropdown-content a {
+      display: block;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #333;
+    }
+  
+    /* Mostrar o submenu quando o item de menu é hover */
+    .menu ul li:hover .dropdown-content {
+      display: block;
+    }
+    
+  }
